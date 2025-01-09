@@ -5,7 +5,7 @@ import About from "./About";
 import NavBar from "./components/NavBar";
 import Merch from "./Merch";
 import Contact from "./Contact";
-import "./app.css";
+import "./App.css";
 
 function App() {
   return (
