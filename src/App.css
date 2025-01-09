@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(20, 20, 30);
+}
+
+.nav-wrap {
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.nav {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  border-bottom: 2px solid rgb(100, 100, 100);
+  background-color: rgba(20, 20, 30, 0.5);
+  backdrop-filter: blur(10px);
+  align-items: center;
+  padding-block: 20px;
+}
+
+.nav-logo {
+  position: absolute;
+  left: 150px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav-logo img {
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+}
+
+.nav-link {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: orange;
+}
+
+.hero {
+  width: 60%;
+  margin-inline: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 30px;
+  gap: 30px;
+}
+
+.hero-title {
+  color: white;
+  font-size: 40px;
+}
+
+.hero-description {
+  color: white;
+  font-size: 20px;
+}
+
+.cards {
+  width: 80%;
+  margin-inline: 10%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.card {
+  width: 230px;
+  background-color: rgb(50, 50, 60);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  cursor: pointer;
+  padding: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.card:hover {
+  background-color: rgba(70, 70, 80);
+}
+
+.card-img {
+  width: 80%;
+  border-radius: 5px;
+}
+
+.card-title {
+  color: white;
+  font-size: 20px;
+}
+
+.card-description {
+  color: rgb(200, 200, 200);
+  font-size: 16px;
+  text-align: center;
+}
+
+.home-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.action {
+  color: rgb(20, 20, 30);
+  font-weight: bold;
+  background-color: orange;
+  border-radius: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 15px 20px;
+  margin-top: 30px;
+  transition: box-shadow 0.5s ease;
+}
+
+.action:hover {
+  box-shadow: 0px 0px 15px rgba(255, 165, 0, 0.5);
+}
+
+.contact-list {
+  width: 50%;
+  margin-inline: 25%;
+  color: white;
+  font-size: 20px;
+  line-height: 30px;
+}
